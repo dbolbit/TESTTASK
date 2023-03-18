@@ -1,5 +1,5 @@
 import React from 'react'
-import style from "../Footer.module.css"
+import style from "../Footer.module.scss"
 import successImg from "../../assets/success-image.svg"
 import Title from "../../others/Title"
 

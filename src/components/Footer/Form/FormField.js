@@ -1,10 +1,9 @@
 import {useEffect, useState} from 'react'
-import style from "./Form.module.css"
+import style from "./Form.module.scss"
 import {useFormContext} from "react-hook-form"
 
 
-const FormField = (props) => {
-  const {text, name, ...ethProps} = props
+const FormField = ({text, name, ...props}) => {
   const [isEmpty, setIsEmpty] = useState(true)
   const [isError, setIsError] = useState(false)
   const {register, formState: {errors}} = useFormContext()
@@ -27,7 +26,6 @@ const FormField = (props) => {
         className={!isEmpty ? style.label_active : null}
         htmlFor={name}>{text}</label>
       <input
-
         className={isError ? style.border_error : null}
         {...register(name, {onBlur: handlerBlur})}
         onFocus={handlerFocus}

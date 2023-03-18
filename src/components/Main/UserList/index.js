@@ -1,4 +1,4 @@
-import style from './List.module.css'
+import style from './List.module.scss'
 import Card from "../Card"
 import {uid} from "uid"
 

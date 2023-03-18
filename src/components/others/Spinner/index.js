@@ -1,4 +1,4 @@
-import style from './Spinner.module.css'
+import style from './Spinner.module.scss'
 
 const Spinner = (props) => {
 

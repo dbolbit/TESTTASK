@@ -1,4 +1,4 @@
-import style from './Card.module.css'
+import style from './Card.module.scss'
 import SkeletonImg from '../../assets/photo-cover.svg'
 import TextWithTooltip from "../../others/TextWithTooltip"
 

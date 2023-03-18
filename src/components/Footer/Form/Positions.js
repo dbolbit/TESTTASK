@@ -1,4 +1,4 @@
-import style from "./Form.module.css"
+import style from "./Form.module.scss"
 import {useEffect, useState} from "react"
 import {useFormContext} from "react-hook-form"
 

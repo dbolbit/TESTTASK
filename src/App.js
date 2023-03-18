@@ -1,7 +1,4 @@
 import Header from "./components/Header"
-import Container from "./components/others/Container"
-import Title from "./components/others/Title"
-import UserList from "./components/Main/UserList"
 import 'react-tooltip/dist/react-tooltip.css'
 import Main from "./components/Main"
 import Footer from "./components/Footer"

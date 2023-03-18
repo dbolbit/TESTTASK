@@ -1,4 +1,4 @@
-import style from './Form.module.css'
+import style from './Form.module.scss'
 import Button from "../../others/Button"
 import Positions from "./Positions"
 import UploadFile from "./UploadFile"
@@ -8,7 +8,7 @@ import {yupResolver} from '@hookform/resolvers/yup'
 import {validationSchema} from "../../../validation"
 import {useEffect, useState} from "react"
 import {api_instance} from "../../../api/api_instance"
-import formStyle from "./Form.module.css"
+import formStyle from "./Form.module.scss"
 import Title from "../../others/Title"
 import {useDispatch} from "react-redux"
 import {fetchUsers, resetUser} from "../../../store/slices/usersSlice"
@@ -41,7 +41,7 @@ const PostForm = ({setStatusForm, setIsSending, statusForm}) => {
   }
 
   return (
-    <div className={formStyle.form_wrapper}>
+    <div>
       <Title>Working with POST request</Title>
       <FormProvider {...methods}>
         <form className={style.form} onSubmit={handleSubmit(onSubmit)}>

@@ -1,4 +1,4 @@
-import style from './Footer.module.css'
+import style from './Footer.module.scss'
 import Container from "../others/Container"
 import PostForm from "./Form"
 import {useEffect, useState} from "react"

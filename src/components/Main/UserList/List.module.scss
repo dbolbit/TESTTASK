@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  min-height: 500px;
+  min-width: 100%;
+}
+
+@media screen and (min-width: 1025px) {
+  .wrapper {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 704px) {
+  .wrapper {
+    justify-content: center;
+  }
+}

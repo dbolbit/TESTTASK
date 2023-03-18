@@ -1,4 +1,4 @@
-import style from './Main.module.css'
+import style from './Main.module.scss'
 import Title from "../others/Title"
 import UserList from "./UserList"
 import Container from "../others/Container"

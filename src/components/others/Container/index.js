@@ -1,4 +1,4 @@
-import style from './Container.module.css'
+import style from './Container.module.scss'
 
 const Container = (props) => {
   const {children, ...ethProps} = props

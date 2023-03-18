@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #F4E041;
+  --hover-btn-color: #FFE302;
+  --secondary-color: #00BDD3;
+  --bg-color: #F8F8F8;
+  --error-color: #CB3D40;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: var(--bg-color);
+
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 140px;
+}
+
+.tooltip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+}
+
