@@ -1,7 +1,7 @@
 import style from './Footer.module.scss'
 import Container from "../others/Container"
 import PostForm from "./Form"
-import {useEffect, useState} from "react"
+import {useState} from "react"
 import Spinner from "../others/Spinner"
 import SuccessElem from "./Form/SuccessElem"
 

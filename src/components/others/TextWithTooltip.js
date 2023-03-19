@@ -8,11 +8,7 @@ const TextWithTooltip = ({children, type}) => {
   const [isWithTooltip, setIsTooltip] = useState(false)
   useEffect(() => {
     const elem = pRef.current
-    if (elem.scrollWidth > elem.clientWidth) {
-      setIsTooltip(true)
-    } else {
-      setIsTooltip(false)
-    }
+    elem.scrollWidth > elem.clientWidth ? setIsTooltip(true) : setIsTooltip(false)
   }, [])
 
 
@@ -34,6 +30,4 @@ const TextWithTooltip = ({children, type}) => {
     </>
   )
 }
-
-
 export default TextWithTooltip

@@ -29,7 +29,7 @@ const FormField = ({text, name, ...props}) => {
         className={isError ? style.border_error : null}
         {...register(name, {onBlur: handlerBlur})}
         onFocus={handlerFocus}
-
+        id={name}
       />
       {isError && <div className={`${style.error} ${style.input_error}`}>{errors[name]?.message}</div>}
     </section>
